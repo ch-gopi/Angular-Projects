@@ -1,0 +1,10 @@
+<label class="search-control">
+  <span>Search movies</span>
+
+  <input
+    type="search"
+    placeholder="Search by title or genre"
+    [value]="query()"
+    (input)="query.set($any($event.target).value)"
+  />
+</label>

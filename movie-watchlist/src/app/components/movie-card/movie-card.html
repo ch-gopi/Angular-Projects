@@ -1,0 +1,19 @@
+<article class="movie-card">
+  <img
+    class="movie-poster"
+    [src]="movie().posterUrl"
+    [alt]="movie().title + ' poster'"
+  />
+
+  <div class="movie-details">
+    <h3>{{ movie().title }}</h3>
+    <p>{{ movie().genre }} · {{ movie().year }}</p>
+    <p class="rating">
+      Rating: {{ movie().rating ?? 'Not rated' }}
+    </p>
+    <span [class]="'status status-' + movie().status">{{ movie().status }}</span>
+    <button type="button" (click)="requestStatusUpdate()">
+      Update Watch Status
+    </button>
+  </div>
+</article>

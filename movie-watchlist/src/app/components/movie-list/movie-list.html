@@ -1,0 +1,38 @@
+<section class="movie-list">
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow">Your Collection</p>
+      <h2>Featured Movies</h2>
+    </div>
+
+    <p>Start building a personal list of movies to watch.</p>
+  </div>
+
+    <app-movie-search [(query)]="searchQuery" />
+
+    @if (filteredMovies().length > 0) {
+      <p class="movie-count">
+        {{ filteredMovies().length }} movies found
+      </p>
+    }
+
+  <div class="movie-grid">
+    @for (movie of filteredMovies(); track movie.id) {
+
+      <app-movie-card
+        [movie]="movie"
+        (statusUpdate)="updateWatchStatus($event)"
+      />
+
+    }
+
+    @empty {
+
+      <p class="empty-state">
+        No movies match your search.
+      </p>
+
+    }
+
+  </div>
+</section>
