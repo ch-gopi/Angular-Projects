@@ -1,18 +1,5 @@
 # <img src="https://user-images.githubusercontent.com/822159/76695715-1cd40180-6659-11ea-8815-00f0e1d7a209.png" alt="LemonMart" width="36"/> LemonMart
-The enterprise-ready Angular template project with REST and GraphQL RBAC pre-configured.
 
-> LemonMart was implemented with a [Route-first architecture](https://techtalkdc.com/router-first-architecture-in-spas/) to designing SPAs.
-
-> See [Changes](#changes) section for important or breaking changes made to the project.
-
-![Angular Version](https://img.shields.io/badge/angular-v17-326839)
-[![CircleCI](https://circleci.com/gh/duluca/lemon-mart.svg?style=svg)](https://circleci.com/gh/duluca/lemon-mart)
-[![Coverage Status](https://coveralls.io/repos/github/duluca/lemon-mart/badge.svg?branch=main)](https://coveralls.io/github/duluca/lemon-mart?branch=main)
-[![DeepScan grade](https://deepscan.io/api/projects/2669/branches/18284/badge/grade.svg)](https://deepscan.io/dashboard#view=project&pid=2669&bid=18284)
-
-![devs served](https://img.shields.io/badge/devs%20served-32%2C528-F3DE48)
-![lemons served](https://img.shields.io/badge/lemons%20served-257%2C428-F3DE48)
-<sup>As of August 2023</sup>
 
 ![lemon-mart-profile](https://github.com/duluca/lemon-mart/assets/822159/d90b9aba-bc34-409f-a55b-ade3fb6c0b7f)
 
